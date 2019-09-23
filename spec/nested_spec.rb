@@ -11,7 +11,7 @@ describe "nested hash" do
 
   describe "alan_kay_is_known_for" do
     it "operates on the programmer_hash and returns the value of what Alan Kay is known for" do
-      expect(alan_kay_is_known_for).to eq("Object Orientation")
+      expect(alan_kay_is_known_for).to eq({:alan_kay=>{:known_for=>"Object Orientation"}})
     end
   end
 
