@@ -19,7 +19,7 @@ def alan_kay_is_known_for
  		{
        
         :alan_kay => {
-          :known_for => "Object Orientation",
+          :known_for => "Object Orientation"
           
      }
 end
